@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\Ex1\\Ex1\\Ex1.csproj": {}
+    "E:\\Project\\Ex1\\ExBackEonix\\Ex1\\Ex1.csproj": {}
   },
   "projects": {
-    "E:\\Project\\Ex1\\Ex1\\Ex1.csproj": {
+    "E:\\Project\\Ex1\\ExBackEonix\\Ex1\\Ex1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\Ex1\\Ex1\\Ex1.csproj",
+        "projectUniqueName": "E:\\Project\\Ex1\\ExBackEonix\\Ex1\\Ex1.csproj",
         "projectName": "Ex1",
-        "projectPath": "E:\\Project\\Ex1\\Ex1\\Ex1.csproj",
+        "projectPath": "E:\\Project\\Ex1\\ExBackEonix\\Ex1\\Ex1.csproj",
         "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\Ex1\\Ex1\\obj\\",
+        "outputPath": "E:\\Project\\Ex1\\ExBackEonix\\Ex1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
