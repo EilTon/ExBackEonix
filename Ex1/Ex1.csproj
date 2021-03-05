@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\Tamer.cs~RF113d8822.TMP" />
+    <None Remove="Models\Tamer.cs~RF1179208b.TMP" />
+    <None Remove="Models\Tamer.cs~RF11cd4ade.TMP" />
+    <None Remove="Models\Trick.cs~RF114f3e9e.TMP" />
+    <None Remove="Views\Simulation.cs~RF11b5ad95.TMP" />
+    <None Remove="Views\Simulation.cs~RF11dd88d4.TMP" />
+  </ItemGroup>
+
+</Project>
