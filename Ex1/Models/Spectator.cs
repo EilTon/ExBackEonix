@@ -12,15 +12,15 @@ namespace Ex1.Models
 			Age = age;
 		}
 
-		public void ReactToTrick()
+		public void ReactToTrick(object source, Reaction args)
 		{
-			switch(Reaction.Trick.TypeTrick)
+			switch (args.Trick.TypeTrick)
 			{
 				case TrickType.AcrobatieType:
-					Console.WriteLine(Name+" Applaudit pendant le tour de " + Reaction.AnimalName +" car il fait "+Reaction.Trick.Name + " qui est un tour d'acrobatie");
+					Console.WriteLine(Name + " Applaudit pendant le tour de " + args.AnimalName + " car il fait " + args.Trick.Name + " qui est un tour d'acrobatie");
 					break;
 				case TrickType.MusicType:
-					Console.WriteLine(Name + " Siffle pendant le tour de " + Reaction.AnimalName + " car il fait " + Reaction.Trick.Name + " qui est un tour de musique");
+					Console.WriteLine(Name + " Siffle pendant le tour de " + args.AnimalName + " car il fait " + args.Trick.Name + " qui est un tour de musique");
 					break;
 			}
 		}

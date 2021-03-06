@@ -13,6 +13,8 @@ namespace Ex1.Controllers
 			spectator = new Spectator("Henry", 22);
 			monkey1 = new Monkey("Ben");
 			monkey2 = new Monkey("Gabriel");
+			monkey1.Spectator = spectator;
+			monkey2.Spectator = spectator;
 			tamer1 = new Tamer("Rodriguez", 36, monkey1, FillListTrick(0));
 			tamer2 = new Tamer("Philip", 32, monkey2, FillListTrick(1));
 		}

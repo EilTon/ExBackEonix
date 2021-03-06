@@ -4,18 +4,18 @@ using System.Text;
 
 namespace Ex1.Models
 {
-	static class Reaction
+	public class Reaction : EventArgs
 	{
-		static string m_animalName;
-		static Trick m_trick;
+		public string m_animalName;
+		public Trick m_trick;
 
-		public static string AnimalName
+		public string AnimalName
 		{
 			get { return m_animalName; }
 			set { m_animalName = value; }
 		}
 
-		public static Trick Trick
+		public Trick Trick
 		{
 			get { return m_trick; }
 			set { m_trick = value; }

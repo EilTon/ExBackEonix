@@ -28,7 +28,7 @@ namespace Ex1.Views
 			for (int i = 0; i < tamer.Monkey.Tricks.Count; i++)
 			{
 				tamer.AskTrickToMonkey(tamer.GetTrickName(i));
-				spectator.ReactToTrick();
+				//spectator.ReactToTrick();
 			}
 		}
 

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ex1.Models
 {
-	enum TrickType { AcrobatieType, MusicType }
+	public enum TrickType { AcrobatieType, MusicType }
 
-	class Trick
+	public class Trick
 	{
 		string m_name;
 		TrickType m_trickType;

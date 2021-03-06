@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using Ex2.DAL;
 using Ex2.Models;
+using Newtonsoft.Json;
 using PagedList;
 
 namespace Ex2.Controllers
@@ -169,5 +170,17 @@ namespace Ex2.Controllers
 			return RedirectToAction("Index");
 		} 
 		#endregion
+	
+		public JsonResult GetPerson()
+		{
+			Person p = new Person()
+			{
+				ID = 10,
+				LastName = "test",
+				FirstName = "test"
+			};
+			var json = JsonConvert.SerializeObject(p);
+			return Json(json,JsonRequestBehavior.AllowGet);
+		}
 	}
 }
